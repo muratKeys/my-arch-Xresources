@@ -39,9 +39,6 @@ URxvt.depth:   32
 URxvt.intensityStyles: false
 URxvt.font:   xft:terminus:size=12
 
-xterm*VT100.Translations: #override \
-                 Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
-                 Ctrl Shift <Key>C:    copy-selection(CLIPBOARD)
 URxvt.scrollBar: false
 URxvt.cursorColor: magenta
 URxvt.saveLines:     5000
@@ -87,3 +84,8 @@ Xft.lcdfilter: lcddefault
 XTerm*background: #191919
 XTerm*foreground: #e7e7e7
 XTerm*pointerColor: #16A085
+
+
+xterm*VT100.Translations: #override \
+                 Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
+                 Ctrl Shift <Key>C:    copy-selection(CLIPBOARD)

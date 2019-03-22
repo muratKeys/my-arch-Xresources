@@ -38,6 +38,10 @@ URxvt.depth:   32
 
 URxvt.intensityStyles: false
 URxvt.font:   xft:terminus:size=12
+
+xterm*VT100.Translations: #override \
+                 Ctrl Shift <Key>V:    insert-selection(CLIPBOARD) \n\
+                 Ctrl Shift <Key>C:    copy-selection(CLIPBOARD)
 URxvt.scrollBar: false
 URxvt.cursorColor: magenta
 URxvt.saveLines:     5000

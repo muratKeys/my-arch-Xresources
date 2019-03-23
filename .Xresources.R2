@@ -30,6 +30,9 @@ URxvt.background: #141414
 URxvt.foreground: #eeeeee
 Urxvt*depth: 32
 
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
 URxvt.perl-ext-common: default,url-select,clipboard
 URxvt.matcher.button: 3
 URxvt.url-select.launcher:  firefox
